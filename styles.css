@@ -56,15 +56,10 @@ a {
 }
 .Header {
 	font-family: 'Open Sans', sans-serif;
-	display: flex;
-	justify-content: space-between;
 	background-color: #404040;
 	color: #e6e6e6;
 	letter-spacing: .2px;
 	padding: 24px 20px;
-}
-a.menuHamburger{
-	font-size: 28px;
 }
 .headerName {
 	color: inherit; 
@@ -81,9 +76,7 @@ a.menuHamburger{
 	margin: 2.5px 0 0;
 	opacity: .6
 }
-
-div.headerInfo {
-	overflow-y: hidden;
+.headerInfo {
 	font-family: 'Open Sans', sans-serif;
 	display: flex;
 	justify-content: space-between;
@@ -93,9 +86,6 @@ div.headerInfo {
 	padding: 24px 20px;
 	word-spacing: 8px;
 	box-shadow: 0px 3px 5px 0px #ccc;
-	transition-property: all;
-	transition-duration: .5s;
-	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
   }
 i.fa.fa-twitter {
   text-decoration: none;
@@ -117,13 +107,6 @@ i.fa.fa-linkedin {
 }
 i.fa.fa-linkedin:active, i.fa.fa-linkedin:hover{
   color: blue;
-}
-i.fa.fa-twitch {
-  text-decoration: none;
-  color: #ccc;
-}
-i.fa.fa-twitch:active, i.fa.fa-twitch:hover{
-  color: purple;
 }
 a.wordlinks {
 	text-decoration: none;
