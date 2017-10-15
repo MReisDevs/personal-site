@@ -148,6 +148,11 @@ a.wordlinks:active, a.wordlinks:hover{
 	height: auto;
 	overflow: hidden;
 }
+#articleImage{
+	width: 100%; 
+	height: auto;
+	overflow: hidden;
+}
 .mainBody {
 	    padding: 32px 20px
 }
