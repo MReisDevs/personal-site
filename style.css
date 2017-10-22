@@ -1,0 +1,167 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    color: #404040;
+    font: 16px/1.5 Helvetica Neue,sans-serif;
+    letter-spacing: -.32px;
+    margin: 0;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Top Box */
+.pclHeader{
+	background-color: #424242;
+    width: 100%;
+    text-align: right;
+}
+#intro_title {
+  display: flex;
+  height: 545px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 1em;
+  color: #55fb2f;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.intro_text{
+	position: relative;
+    top: -10px;
+    text-align: center;
+}
+
+.intro_paragraph{
+  width: 550px;
+	float: left;
+}
+
+
+#intro{
+	font-size: 2em;
+  line-height: 1.25em;s
+  margin: 1.125em 0 .375em;
+  font-weight: normal;;
+}
+
+.pic_of_me{
+	float: right;
+	margin: 0 1em 1em 0;
+	width: 200px;
+}
+
+
+
+/* Main Content */
+
+.title{
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+.column_title{
+
+	margin-bottom: 20px;
+	color: #339595;
+}
+
+
+.intro_column_left{
+	max-width: 47%;
+	float: left;
+	border-top: solid 10px;
+	border-color: #E6EBEB;
+	padding-top: 20px;
+	margin-top: 50px;
+}
+
+.intro_column_right{
+	max-width: 47%;
+	float: right;
+	border-top: solid 10px;
+	border-color: #E6EBEB;
+	padding-top: 20px;
+	margin-top: 50px;
+}
+
+.clear_both{
+	clear: both;
+}
+
+.about_me{
+	float: left;
+	max-width: 600px;
+}
+
+.bottom_about{
+	margin: 0 auto;
+}
+
+.about_box{
+	margin: 0 auto;
+	margin-bottom: 60px;
+	margin-top: 60px;
+	padding: 15px;
+	padding-top: 40px;
+	width: 400px;
+	height: 220px;
+	border: 1px;
+	border-style: solid;
+  border-width: 10px;
+  border-color: #F0F0F0;
+}
+
+.small_profile{
+	width: 160px;
+	border: solid ;
+}
