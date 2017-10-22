@@ -60,6 +60,23 @@ a {
 	background-color: #424242;
     width: 100%;
     text-align: right;
+    color: white;
+}
+.header_link{
+    display: inline-block;
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 12px 10px 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+a:hover{
+  color: #55fb2f;
+  transition: color 0.3s ease;
 }
 #intro_title {
   display: flex;
@@ -72,7 +89,7 @@ a {
   background-color: black;
   justify-content: center;
   align-items: center;
-  padding-left: 10px;
+  margin: 0 auto;
 }
 
 .intro_text{
@@ -80,26 +97,6 @@ a {
     top: -10px;
     text-align: center;
 }
-
-.intro_paragraph{
-  width: 550px;
-	float: left;
-}
-
-
-#intro{
-	font-size: 2em;
-  line-height: 1.25em;s
-  margin: 1.125em 0 .375em;
-  font-weight: normal;;
-}
-
-.pic_of_me{
-	float: right;
-	margin: 0 1em 1em 0;
-	width: 200px;
-}
-
 
 
 /* Main Content */
