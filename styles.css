@@ -253,10 +253,13 @@ a.wordlinks:active, a.wordlinks:hover{
     transition: color 0.3s ease;
     color: #4aba91;
 }
-a.pcl:hover{
-  color: #d4ce46;
+a.pcl_links:hover{
+  color: rgb(189, 65, 40);
   transition: color 0.3s ease;
-  -webkit-text-stroke: 1px #0e5135;
+}
+a.header_link:hover{
+  color: rgb(189, 65, 40);
+  transition: color 0.3s ease;
 }
 #intro_title {
   display: flex;
