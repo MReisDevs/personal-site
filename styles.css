@@ -301,16 +301,30 @@ a.header_goback:hover{
 /* Main Content */
 .intro_descrip{
 	display: flex;
+	justify-content: space-around;
 }
 .intro_blurb{
 	padding-top: 50px;
-	padding-left: 5%;
+	padding-right: 2%;
+	padding-left: 2%;
 	float: left;
-	max-width: 65%;
+	max-width: 60%;
 }
 .intro_image{
 	float: right;
+	max-width: 35%;
+	padding-top: 50px;
+	padding-right: 2%;
+	padding-left: 2%;
+	align-items: center;
 }
+#intro_img{
+	width: auto;
+	height:auto;
+	max-width: 100%;
+	max-height: 300px;
+}
+
 .title{
 	border-bottom: solid 3px #0d9263;
 	font-family: 'Triforce', cursive;
@@ -319,8 +333,9 @@ a.header_goback:hover{
 	font-size: 40px;
 }
 .columns{
-	max-width: 90%;
+	max-width: 80%;
 	margin: 0 auto;
+	justify-content: space-around;
 }
 .title_about{
 	font-family: 'Cormorant Infant', serif;
@@ -345,8 +360,8 @@ a.header_goback:hover{
 .intro_column_left{
 	max-width: 40%;
 	float: left;
-	padding-top: 20px;
-	margin-top: 50px;
+	padding-top: 10px;
+	margin-top: 25px;
 	margin: 0 auto;
 	margin-bottom: 60px;
 	margin-top: 60px;
@@ -357,8 +372,8 @@ a.header_goback:hover{
 .intro_column_right{
 	max-width: 40%;
 	float: right;
-	padding-top: 20px;
-	margin-top: 50px;
+	padding-top: 10px;
+	margin-top: 25px;
 	margin: 0 auto;
 	margin-bottom: 60px;
 	margin-top: 60px;
