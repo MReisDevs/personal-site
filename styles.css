@@ -253,7 +253,7 @@ a.wordlinks:active, a.wordlinks:hover{
     transition: color 0.3s ease;
     color: #4aba91;
 }
-a:hover{
+a.pcl:hover{
   color: #d4ce46;
   transition: color 0.3s ease;
   -webkit-text-stroke: 1px #0e5135;
