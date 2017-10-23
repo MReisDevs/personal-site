@@ -231,6 +231,7 @@ a.wordlinks:active, a.wordlinks:hover{
     margin: 0 auto; 
     }}
 /* Top Box */
+
 .pcl{
 	background-color: rgb(223, 223, 223);
 }
@@ -265,7 +266,7 @@ a.header_link:hover{
   display: flex;
   height: 545px;
   font-family: 'Press Start 2P', cursive;
-  font-size: 40px;
+  font-size: 32px;
   font-weight: normal;
   line-height: 1em;
   color: #55fb2f;
@@ -273,6 +274,8 @@ a.header_link:hover{
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
 .intro_text{
@@ -288,7 +291,7 @@ a.header_link:hover{
 }
 .intro_blurb{
 	padding-top: 50px;
-	padding-left: 20px;
+	padding-left: 5%;
 	float: left;
 	max-width: 65%;
 }
@@ -302,10 +305,13 @@ a.header_link:hover{
 	color: #0e5135;
 	font-size: 40px;
 }
+.columns{
+	max-width: 90%;
+	margin: 0 auto;
+}
 .title_about{
 	font-family: 'Cormorant Infant', serif;
 	font-size: 18px;
-	padding: 20px;
 }
 .column_title{
 	font-family: 'Triforce', cursive;
@@ -331,7 +337,6 @@ a.header_link:hover{
 	margin: 0 auto;
 	margin-bottom: 60px;
 	margin-top: 60px;
-	padding: 20px;
 	padding-top: 40px;
 	font-family: 'Cormorant Infant', serif;
 }
@@ -344,7 +349,6 @@ a.header_link:hover{
 	margin: 0 auto;
 	margin-bottom: 60px;
 	margin-top: 60px;
-	padding: 20px;
 	padding-top: 40px;
 	font-family: 'Cormorant Infant', serif;
 }
@@ -359,7 +363,6 @@ a.header_link:hover{
 	font-weight: bold;
 	border-bottom: solid 3px #0d9263;
     margin-bottom: 1em;
-    margin-left: 20px;
 	color: #0e5135;
 }
 .bottom_about{
@@ -379,4 +382,7 @@ a.header_link:hover{
 	border-width: 10px;
 	border-color: #0e5135;
 }
-
+@media (min-width: 525px) {
+  #intro_title {
+  font-size: 44px; }
+}
