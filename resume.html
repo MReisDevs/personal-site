@@ -10,9 +10,17 @@
 	<link href="/styles.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
 	<script src="https://use.fontawesome.com/0daee5fd84.js"></script>
-  	<script type="text/javascript" src="main.js"></script>
+	<script>
+		function goBack() {
+	    window.history.back();
+		}
+	</script>
 </head>
 <body class="pcl">
-	<iframe src="https://resume.creddle.io/embed/gtavyvv8h1"
-  width="850" height="1100" seamless></iframe> 
+	<div class="pclHeader">
+		<a onclick="goBack()" class="header_goback">Previous Page</a>
+	</div>
+	<div>	
+	<iframe id="resume" src="https://resume.creddle.io/embed/gtavyvv8h1"
+	  width="850" height="1100" seamless></iframe> 
 </body>
