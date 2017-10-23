@@ -1,3 +1,11 @@
+@font-face {
+    font-family: Triforce;
+    src: url('../fonts/Triforce.ttf');
+}
+@font-face {
+    font-family: Ganon;
+    src: url('../fonts/ReturnofGanon.ttf');
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -220,4 +228,152 @@ a.wordlinks:active, a.wordlinks:hover{
 
   .content_container {
     width: 600px;
-    margin: 0 auto; } }
+    margin: 0 auto; 
+    }}
+/* Top Box */
+.pcl{
+	background-color: rgb(223, 223, 223);
+}
+.pclHeader{
+	background-color: #424242;
+    width: 100%;
+    text-align: right;
+    color: white;
+}
+.header_link{
+    display: inline-block;
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 12px 10px 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+    color: #4aba91;
+}
+a:hover{
+  color: #d4ce46;
+  transition: color 0.3s ease;
+  -webkit-text-stroke: 1px #0e5135;
+}
+#intro_title {
+  display: flex;
+  height: 545px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 1em;
+  color: #55fb2f;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.intro_text{
+	position: relative;
+    top: -10px;
+    text-align: center;
+}
+
+
+/* Main Content */
+.intro_descrip{
+	display: flex;
+}
+.intro_blurb{
+	padding-top: 50px;
+	padding-left: 20px;
+	float: left;
+	max-width: 65%;
+}
+.intro_image{
+	float: right;
+}
+.title{
+	border-bottom: solid 3px #0d9263;
+	font-family: 'Triforce', cursive;
+	font-weight: bold;
+	color: #0e5135;
+	font-size: 40px;
+}
+.title_about{
+	font-family: 'Cormorant Infant', serif;
+	font-size: 18px;
+	padding: 20px;
+}
+.column_title{
+	font-family: 'Triforce', cursive;
+	font-size: 32px;
+	font-weight: bold;
+	border-bottom: solid 3px #0d9263;
+    margin-bottom: 1em;
+	color: #0e5135;
+}
+
+.column_sub{
+	font-family: 'Triforce', cursive;
+	color: 	#0d9263;
+	font-weight; bold;
+	font-size: 22px;
+}
+
+.intro_column_left{
+	max-width: 40%;
+	float: left;
+	padding-top: 20px;
+	margin-top: 50px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+	margin-top: 60px;
+	padding: 20px;
+	padding-top: 40px;
+	font-family: 'Cormorant Infant', serif;
+}
+
+.intro_column_right{
+	max-width: 40%;
+	float: right;
+	padding-top: 20px;
+	margin-top: 50px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+	margin-top: 60px;
+	padding: 20px;
+	padding-top: 40px;
+	font-family: 'Cormorant Infant', serif;
+}
+
+.clear_both{
+	clear: both;
+}
+.project_title{
+	max-width: 50%;
+	font-family: 'Triforce', cursive;
+	font-size: 32px;
+	font-weight: bold;
+	border-bottom: solid 3px #0d9263;
+    margin-bottom: 1em;
+    margin-left: 20px;
+	color: #0e5135;
+}
+.bottom_about{
+	margin: 0 auto;
+}
+
+.about_box{
+	margin: 0 auto;
+	margin-bottom: 60px;
+	margin-top: 60px;
+	padding: 15px;
+	padding-top: 40px;
+	width: 400px;
+	height: 220px;
+	border: 1px;
+	border-style: solid;
+	border-width: 10px;
+	border-color: #0e5135;
+}
+
