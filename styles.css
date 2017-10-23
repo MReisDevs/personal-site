@@ -338,8 +338,9 @@ a.header_goback:hover{
 	justify-content: space-around;
 }
 .title_about{
+	padding-top: 3px;
 	font-family: 'Cormorant Infant', serif;
-	font-size: 18px;
+	font-size: 20px;
 }
 .column_title{
 	font-family: 'Triforce', cursive;
