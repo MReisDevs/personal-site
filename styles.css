@@ -268,9 +268,9 @@ a.wordlinks:active, a.wordlinks:hover{
 	background-color: rgb(223, 223, 223);
 }
 .pclHeader{
-	display: block;
+	display: flex;
+	justify-content: space-between;
 	background-color: #424242;
-	text-align: right;
 	border:1px solid #3A3A3A;
     width: 100%;
 }
@@ -296,6 +296,17 @@ a.wordlinks:active, a.wordlinks:hover{
     transition: color 0.3s ease;
     color: #0d9263;
 }
+.header_dlresume{
+    display: inline-block;
+    font-size: 1em;
+    padding: 12px 10px 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+    color: #0d9263;
+}
 a.pcl_links:hover{
   color: rgb(189, 65, 40);
   transition: color 0.3s ease;
@@ -305,6 +316,10 @@ a.header_link:hover{
   transition: color 0.3s ease;
 }
 a.header_goback:hover{
+  color: rgb(189, 65, 40);
+  transition: color 0.3s ease;
+}
+a.header_dlresume:hover{
   color: rgb(189, 65, 40);
   transition: color 0.3s ease;
 }
