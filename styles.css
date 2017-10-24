@@ -250,13 +250,19 @@ a.wordlinks:active, a.wordlinks:hover{
   .fullMenu {
     display: flex; }
 
+
   img {
     object-position: 0 0; }
 
   .content_container {
     width: 600px;
     margin: 0 auto; 
-    }}
+    }
+.bodyText{
+	font-size: 16px;
+	font-weight: 400;
+}
+}
 /* Top Box */
 
 .pcl{
